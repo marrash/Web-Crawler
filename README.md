@@ -19,7 +19,7 @@ Google Play Web Crawler是一個用於自動檢查指定 Android 應用在 Googl
 
 ```bash
 pip install pyppeteer
-
+```
 ---ini----
 [apps]
 MOMO = https://play.google.com/store/apps/details?id=com.mservice.momotransfer
@@ -39,6 +39,7 @@ versions_file = versions.txt
 '''bash
 
 python CheckVersion_2.py
+```
 腳本將根據配置檔案中的信息檢查每個應用的版本，如有更新，將更新信息寫入指定的本地檔案中。
 
 日誌
